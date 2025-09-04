@@ -3,7 +3,7 @@ import { GithubIcon, LinkedinIcon } from 'lucide-react'
 export const Footer = ({ darkMode }) => {
     return (
         <footer
-            className="w-full py-8 px-6  'bg-gray-800 text-gray-200"
+            className={`w-full py-8 px-6 bg-gray-800 ${darkMode ?  "text-gray-700" : "text-white"}`}
         >
             <div className="max-w-5xl mx-auto flex flex-col items-center">
                 <p className="mb-4">Built with ❤️ by Anirudh Pandey</p>

@@ -31,7 +31,7 @@ const ResultsComponent = ({ emissions, darkMode }) => {
 
   return (
     <div className="mt-8 p-6 rounded-lg bg-white dark:bg-gray-800 shadow-md">
-      <h2 className="text-2xl font-bold mb-4 text-center">Your Daily Carbon Footprint</h2>
+      <h2 className="text-2xl font-bold mb-4 text-center text-white">Your Daily Carbon Footprint</h2>
       <p className="text-4xl font-bold text-center text-green-600 dark:text-green-400 mb-4">
         {totalEmissions.toFixed(2)} kg CO₂
       </p>
